@@ -1,9 +1,9 @@
 # OOPs-using-Java
 
-## q1
+## q1 : [restaurant.java](https://github.com/subhankar01/OOPs-using-Java/blob/main/restaurant.java)
 You have been assigning a task to develop a software to keep track of customer for a restaurant, menu detail of the restaurant. For auditing purpose you also want to keep record of the order history of customer and total sale of the restaurant.
 
-## q2 
+## q2 : [spindle.java](https://github.com/subhankar01/OOPs-using-Java/blob/main/spindle.java)
 
 Design of Spindle Speeds of Machine Tools:
 
