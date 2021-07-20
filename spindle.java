@@ -1,5 +1,5 @@
 import java.util.*;
-class MyException extends Exception
+class MyException extends Exception //user exception
 {
     MyException()
     {
