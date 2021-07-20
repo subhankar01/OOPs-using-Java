@@ -37,15 +37,36 @@ Book Author: David j. Barnes and Michael Kolling
 Publisher: Prentice Hall
 ISBN: 0 941831 39 6
 ```
-q4 : [meet.java](https://github.com/subhankar01/OOPs-using-Java/blob/main/meet.java)
-Design a class called Meeting to represent meetings in a diary. The Meeting class has the following fields:
-- time of the meeting represented as string in hours and minutes,
-- location of the meeting (such as “room 205”),
-- subject to represent the meeting’s subject (such as “Examiner’s meeting”).
-Time, location and subject are stored as strings.
-The class should include a constructor and the following methods:
-- setTime: to set the time.
-- setLocation: to set the location.
-- setSubject: to set the subject.
-- getSubject: to return the subject of the meeting.
-- printDetails: to print all information of a meeting in the following form:
+## q4 : [graduation.java](https://github.com/subhankar01/OOPs-using-Java/blob/main/graduation.java)
+
+```
+/**
+* The Student class represents a student in a student administration system.
+* It holds the student details.
+*/
+public class Student
+{ private String name; // the student's full name
+private String id; // the student ID
+private int credits; // the amount of credits for study taken so far
+// Create a new student with a given name and ID number.
+public Student (String fullName, String studentID)
+{ name = fullName;
+id = studentID;
+credits = 0;
+}
+// Return the full name of this student.
+………….
+// Set a new name for this student.
+………….
+// Return the student ID of this student.
+………….
+// Add some credit points to the student's accumulated credits.
+………….
+/* Check the number of credit points this student has accumulated.
+* If it is less than 132, then print “Not yet grdauated”, otherwise print “Graduated”.
+*/
+………….
+// Print the student's name and ID number to the output terminal.
+…………..
+
+```
