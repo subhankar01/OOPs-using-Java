@@ -37,3 +37,15 @@ Book Author: David j. Barnes and Michael Kolling
 Publisher: Prentice Hall
 ISBN: 0 941831 39 6
 ```
+q4 : [meet.java](https://github.com/subhankar01/OOPs-using-Java/blob/main/meet.java)
+Design a class called Meeting to represent meetings in a diary. The Meeting class has the following fields:
+- time of the meeting represented as string in hours and minutes,
+- location of the meeting (such as “room 205”),
+- subject to represent the meeting’s subject (such as “Examiner’s meeting”).
+Time, location and subject are stored as strings.
+The class should include a constructor and the following methods:
+- setTime: to set the time.
+- setLocation: to set the location.
+- setSubject: to set the subject.
+- getSubject: to return the subject of the meeting.
+- printDetails: to print all information of a meeting in the following form:
